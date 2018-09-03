@@ -98,6 +98,10 @@ Aplicação em Laravel v5.6.* sistema de saldo.
     MAIL_PASSWORD=null
     MAIL_ENCRYPTION=null
     ```
+10. Para exibir a imagem do usuario é necessário criar um link simbolico da pasta storage/app/public para /public
+    ```bash
+    php artisan storage:link
+    ```
 
 11. Se alterar os arquivos js ou sass da pasta resources/assets, é necessário, executar: 
     ```bash
